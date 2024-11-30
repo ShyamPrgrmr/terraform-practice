@@ -9,6 +9,6 @@
 */
 
 resource "local_file" "newfile" {
-    filepath = "D://Terraform_Practice/8-lifecycle-rules/text.txt"
+    filepath = "./text.txt"
     content = "TEST"
 }

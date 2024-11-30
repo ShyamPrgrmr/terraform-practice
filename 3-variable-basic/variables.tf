@@ -1,7 +1,7 @@
 variable "myfile" {
     type=map(string)
     default={
-        "filename"="D://Terraform_Practice/3-variable-basic/myfile.txt"
+        "filename"="./myfile.txt"
         "content"="Hello! my name is shyam"
     }
 }

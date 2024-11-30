@@ -11,7 +11,7 @@ resource "random_pet" "pet" {
 }
 
 resource "local_file" "file" {
-    filename = "D://Terraform_Practice/7-output-variables/file.txt"
+    filename = "./file.txt"
     content = "${var.static_content} ${random_pet.pet.id}" 
 }
 

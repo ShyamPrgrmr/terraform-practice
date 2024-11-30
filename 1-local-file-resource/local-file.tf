@@ -1,4 +1,4 @@
 resource "local_file" "myfile" {
-filename="D:/Terraform Practice/1-Local-file-resource/myfile.txt"
+filename="./myfile.txt"
 content="Hello, this is shyam"
 }

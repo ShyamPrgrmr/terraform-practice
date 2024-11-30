@@ -1,5 +1,5 @@
 resource "local_file" "myfile" {
-    filename="D://Terraform_Practice/2-multi-resource/myfile.txt"
+    filename="./myfile.txt"
     content="Hello! my name is shyam"
 }
 
