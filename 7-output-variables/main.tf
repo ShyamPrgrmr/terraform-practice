@@ -23,8 +23,12 @@ output "output-var" {
 
 /*
 Output : 
-terraform init
-terraform plan
-terraform apply
+$ terraform init
+$ terraform plan
+$ terraform apply
 output-var = "My pet's name is PET_crab"
+
+$ terraform output
+output-var = "My pet's name is PET_crab"
+
 */
