@@ -32,9 +32,13 @@
 ## Terraform state commands
 
 > terraform state list                  : To list resources
+
 > terraform state show <resource_name>  : To show state of resouce 
+
 > terraform state mv <SOURCE> <TARGET>  : To move/rename the resource "need to update resource file as well"
+
 > terraform state pull                  : Pull current state from remote
+
 > terraform state rm <resource_name>    : To remove resource "need to remove resource from file as well"
 
 
