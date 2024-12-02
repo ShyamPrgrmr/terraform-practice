@@ -41,6 +41,17 @@
 
 > terraform state rm <resource_name>    : To remove resource "need to remove resource from file as well"
 
+## Logging and Debugging
 
+### Apply Logs
+> export TF_lOG=<LOG_LAVEL> 
+
+> LOG LEVELS = TRACE -> (Whole logs), INFO, ERROR, WARNING, DEBUG 
+
+
+## Taints and Untaints
+> terraform taint <resource_name> -> Will force to recrete the instance in next phase. 
+
+> terrafomr untaint <resource_name>
 
 
