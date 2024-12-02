@@ -61,3 +61,12 @@
 
 > terraform export <provider>.<resource_name> <attribute> : we will need to initialize (not declare it's body) a resource in configuration. after we do export we can use "terraform state show" command to see attributes and same we copy in resource file.  
 
+## Terraform Modules
+
+### Any directory which has set of configuration file is called modules. 
+
+```python
+module "logical_name" {
+    source = "<module source directory>"
+}
+``` 
