@@ -59,7 +59,7 @@
 
 ### We use them to create resources for exixting infrastructure
 
-> terraform export <provider>.<resource_name> <attribute> : we will need to initialize (not declare it's body) a resource in configuration. after we do export we can use "terraform state show" command to see attributes and same we copy in resource file.  
+> terraform export <provider_name.resource_name> attributes : we will need to initialize (not declare it's body) a resource in configuration. after we do export we can use "terraform state show" command to see attributes and same we copy in resource file.  
 
 ## Terraform Modules
 
