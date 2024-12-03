@@ -69,4 +69,33 @@
 module "logical_name" {
     source = "<module source directory>"
 }
-``` 
+```
+
+## Terraform functions
+
+### String functions
+
+> join - to concat multiple string
+
+> lower, upper and title -> To update case
+
+> substr(var, index, length) -> -1 for till last element.
+
+### Collection functions (set and list)
+
+> index(var, element) -> to get index of element
+
+> element(var, index) -> to get element at index
+
+> contains(var, element) -> to check if element is available
+
+
+### Map functions
+
+> keys(var) -> to get list of keys
+
+> values(var) -> to get list of values
+
+> lookup(var, key) -> to get value at key
+
+> lookup(var, key, default) -> if no value found then use default
